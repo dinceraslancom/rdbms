@@ -13,7 +13,7 @@ setup(
     package_dir={'rdbms': 'rdbms'},
     author="Dincer Aslan",
     author_email="dinceraslan.com@gmail.com",
-    description="Relational Database Management Systems",
+    description="Relational Database Management System",
     long_description=readme,
     long_description_content_type='text/x-rst',
     url="https://github.com/dinceraslancom/rdbms",

@@ -1,7 +1,7 @@
 RDBMS
 ---------
 
-Relational Database Management Systems
+Relational Database Management System
 
 
 Installing
