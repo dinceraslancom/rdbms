@@ -9,7 +9,7 @@ with open("README.rst", "r", encoding="utf8") as f:
 
 setup(
     name='rdbms',
-    version='1.0.0',
+    version='1.0.1',
     package_dir={'rdbms': 'rdbms'},
     author="Dincer Aslan",
     author_email="dinceraslan.com@gmail.com",
