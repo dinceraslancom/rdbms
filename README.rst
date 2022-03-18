@@ -61,6 +61,7 @@ Simple Usage
         user = User()
         user.create_user(name='username', password='1234')
         users = user.get_user(name='username')
+        assert users[0].name == 'username'
         assert users[0].name == users[0]['name']
 
 Parameters Example
@@ -150,7 +151,7 @@ Aggregate Example
 
     if __name__ == '__main__':
         test = Test()
-        test.add_collaction(mysum)
+        test.add_aggregate(mysum)
         result = test.get_test_aggregate_data()
         assert result[0]['mysum(age)'] == 100
 
